@@ -1,10 +1,7 @@
 const currentTheme = localStorage.getItem("userTheme");
 if (currentTheme == "dark-theme") {
     const root = document.documentElement;
-    root.style.setProperty('--bg-color-1', '#352F44');
-    root.style.setProperty('--bg-color-2', '#5C5470');
-    root.style.setProperty('--bg-color-3', '#B9B4C7');
-    root.style.setProperty('--bg-color-4', '#FAF0E6');
+    root.setAttribute('data-theme', 'dark')
     const icon = document.querySelector(".theme-btn img");
     icon.src = "./assets/dark-theme.svg";
 }
@@ -15,20 +12,15 @@ changeTheme.addEventListener("click", () => {
     const userTheme = localStorage.getItem("userTheme");
 if (userTheme == "dark-theme") {
     const root = document.documentElement;
-    root.style.setProperty('--bg-color-1', '#9681EB');
-    root.style.setProperty('--bg-color-2', '#45CFDD');
-    root.style.setProperty('--bg-color-3', '#A7EDE7');
-    root.style.setProperty('--bg-color-4', '#0000EE');
+    root.setAttribute('data-theme', 'light')
+
     const icon = document.querySelector(".theme-btn img");
     icon.src = "./assets/light-theme.svg";
     localStorage.setItem("userTheme", "light-theme");
 }
 else {
     const root = document.documentElement;
-    root.style.setProperty('--bg-color-1', '#352F44');
-        root.style.setProperty('--bg-color-2', '#5C5470');
-        root.style.setProperty('--bg-color-3', '#B9B4C7');
-        root.style.setProperty('--bg-color-4', '#FAF0E6');
+        root.setAttribute('data-theme', 'dark')
         const icon = document.querySelector(".theme-btn img");
         icon.src = "./assets/dark-theme.svg";
         localStorage.setItem("userTheme", "dark-theme");
