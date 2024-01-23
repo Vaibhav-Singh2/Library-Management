@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("location: login.php");
+}
+
+$username = $_SESSION['username'];
+?>
+
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 
@@ -9,11 +19,11 @@
 </head>
 
 <body>
-    <?php include("components/header.html") ?>
+    <?php include("components/header.php") ?>
 
     <div class="divider">
 
-        <?php include("components/sidebar.html") ?>
+        <?php include("components/sidebar.php") ?>
 
         <div class="right">
             <div class="card">

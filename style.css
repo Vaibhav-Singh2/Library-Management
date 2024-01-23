@@ -81,7 +81,7 @@ header h1 {
 .navigation li {
     background-color: var(--bg-color-2);
     margin: 8px;
-    padding: 14px;
+    padding: 12px;
     list-style: none;
     font-size: 24px;
     color: var(--bg-color-4);
@@ -138,6 +138,37 @@ hr {
     font-size: 16px;
     line-height: 1.5;
 }
+
+.account {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.account p::before{
+    content:"Your Username: ";
+}
+.account p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    background-color: var(--bg-color-2);
+    padding: 8px 16px;
+    color: var(--bg-color-4);
+    border-radius: 50px;
+}
+
+.account button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.account button:hover {
+    background-color: #3c74e6;
+}
+
 
 /* Desktop */
 @media screen and (min-width: 480px) {
