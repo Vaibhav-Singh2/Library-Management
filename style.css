@@ -104,13 +104,12 @@ hr {
 }
 
 .right {
-    padding: 30px;
-    display: grid;
-    gap: 20px;
+    padding: 20px;
     overflow-y: scroll;
 }
 
-.card {
+/* OLD index.php (home page) book container css */
+/* .card {
     background-color: var(--bg-color-3);
     max-width: 200px;
     padding: 20px;
@@ -137,16 +136,18 @@ hr {
 .description {
     font-size: 16px;
     line-height: 1.5;
-}
+} */
 
 .account {
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.account p::before{
-    content:"Your Username: ";
+
+.account p::before {
+    content: "Your Username: ";
 }
+
 .account p {
     margin-bottom: 8px;
     font-size: 16px;
