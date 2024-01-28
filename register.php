@@ -15,7 +15,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if the username already exists
     $checkUserExists = "SELECT * FROM users WHERE username='$username'";
     $result = $conn->query($checkUserExists);
-
+    $file = fopen("/Library-Management/utils/text.txt", 'w');
+    $write($file, $result);
+    fclose($file);
     if ($result->num_rows > 0) {
         $msg = "Username already exists";
     } else {
@@ -53,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <main class="main-container">
         <div class="login-box">
             <img class="book-logo" src="assets/book-logo.svg" alt="book-logo">
-            <form class="credential-box" method="post" action="<?php echo $_SERVER['PHP_SELF']?>">
+            <form class="credential-box" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
                 <label for="username">Username: </label><input type="text" name="username">
                 <label for="password">Password: </label><input type="password" name="password">
                 <button type="submit" value="Register">Register</button>

@@ -27,85 +27,84 @@ $username = $_SESSION['username'];
 
         <div class="right">
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="1book.webp" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="2book.jpeg" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">A Million To One</div>
+                <img class="book-image" src="./assets/2book.jpeg" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="3book.jpg" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">Last Hope</div>
+                <img class="book-image" src="./assets/3book.jpg" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="1book.webp" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="2book.jpeg" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="3book.jpg" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">A Million To One</div>
+                <img class="book-image" src="./assets/2book.jpeg" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="1book.webp" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">Last Hope</div>
+                <img class="book-image" src="./assets/3book.jpg" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="2book.jpeg" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
             </div>
             <div class="card">
-                <div class="book-title">Enter Book Title</div>
-                <img class="book-image" src="3book.jpg" alt="Book Cover">
-                <div class="description">
-                    Insert a brief description or summary of the book here. Include key themes, characters, and any
-                    other
-                    relevant information to capture the reader's interest.
-                </div>
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">A Million To One</div>
+                <img class="book-image" src="./assets/2book.jpeg" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Last Hope</div>
+                <img class="book-image" src="./assets/3book.jpg" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">A Million To One</div>
+                <img class="book-image" src="./assets/2book.jpeg" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Last Hope</div>
+                <img class="book-image" src="./assets/3book.jpg" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">A Million To One</div>
+                <img class="book-image" src="./assets/2book.jpeg" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Last Hope</div>
+                <img class="book-image" src="./assets/3book.jpg" alt="Book Cover">
+            </div>
+            <div class="card">
+                <div class="book-title">Alone</div>
+                <img class="book-image" src="./assets/1book.webp" alt="Book Cover">
             </div>
         </div>
     </div>
